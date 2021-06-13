@@ -2,10 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main":"server/server.ts",
+  "main": "server/server.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:server" :"nodemon server/server.ts"
+    "start:server": "nodemon server/server.ts"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "mongoose": "^5.12.13"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.10",
     "@types/express": "^4.17.12",
     "@types/node": "^15.12.2",
     "nodemon": "^2.0.7",

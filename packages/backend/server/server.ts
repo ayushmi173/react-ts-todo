@@ -18,7 +18,7 @@ app.use(
 );
 
 // THIS STRING IS THE LINK TO OUR MONGODB
-const url = "mongodb://localhost/expense-tracker";
+const url = "mongodb://localhost/ts-react-todo";
 
 // mongodb connection
 mongoose
